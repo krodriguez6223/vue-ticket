@@ -9,10 +9,11 @@
 <script>
     import BuscadorTicket from "./BuscadorTicket";
 
+
     export default {
         components: {
-            BuscadorTicket
-        }
+    BuscadorTicket,
+}
     }
 
 

@@ -4,4 +4,8 @@
 
 <pagina-inicio></pagina-inicio>
 
+
+</div>
+  
+
 @endsection

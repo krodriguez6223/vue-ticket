@@ -11,11 +11,17 @@
         <div class="card-body">
             <form class="d-flex" role="search">
 
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                <input class="form-control me-2" type="text"  placeholder="Ciudad de Origen" aria-label="Search">
+                <input class="form-control me-2" type="text"  placeholder="Ciudad de Destino" aria-label="Search">
+                <input class="form-control me-2" type="date" placeholder="Fecha de salida" aria-label="Search">
+                <input class="form-control me-2" type="date"  placeholder="Fecha de retorno" aria-label="Search">
+                
+                <router-link :to="{name:'resultados'}">
+
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </router-link>
+                
+
               </form>
         </div>
       </div>
